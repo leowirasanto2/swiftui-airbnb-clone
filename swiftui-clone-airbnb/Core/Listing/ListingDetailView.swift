@@ -196,6 +196,7 @@ struct ListingDetailView: View {
                     VStack(alignment: .leading) {
                         Text("$500")
                             .font(.subheadline)
+                            .fontWeight(.semibold)
                         Text("Total before taxes")
                             .font(.footnote)
                         Text("Oct 15 - 20")
