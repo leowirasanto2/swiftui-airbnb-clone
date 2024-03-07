@@ -19,6 +19,7 @@
 		6003A4732B98A640007309C6 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6003A4722B98A640007309C6 /* SearchAndFilterBar.swift */; };
 		6003A4762B98A8F5007309C6 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6003A4752B98A8F5007309C6 /* ListingDetailView.swift */; };
 		6003A4792B98A94A007309C6 /* ListingImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6003A4782B98A94A007309C6 /* ListingImageCarousel.swift */; };
+		60267E3D2B99941B002F150E /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60267E3C2B99941B002F150E /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6003A4722B98A640007309C6 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		6003A4752B98A8F5007309C6 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		6003A4782B98A94A007309C6 /* ListingImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarousel.swift; sourceTree = "<group>"; };
+		60267E3C2B99941B002F150E /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				6003A4702B98A631007309C6 /* ExploreView.swift */,
 				6003A4722B98A640007309C6 /* SearchAndFilterBar.swift */,
+				60267E3C2B99941B002F150E /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003A43A2B98A581007309C6 /* ContentView.swift in Sources */,
+				60267E3D2B99941B002F150E /* DestinationSearchView.swift in Sources */,
 				6003A46F2B98A606007309C6 /* ListingItemView.swift in Sources */,
 				6003A4712B98A631007309C6 /* ExploreView.swift in Sources */,
 				6003A4732B98A640007309C6 /* SearchAndFilterBar.swift in Sources */,
