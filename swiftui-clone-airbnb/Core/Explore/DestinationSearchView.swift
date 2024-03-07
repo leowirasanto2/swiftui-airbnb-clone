@@ -31,8 +31,6 @@ struct DestinationSearchView: View {
                     .foregroundStyle(.black)
             }
             
-            
-            
             VStack(alignment: .leading) {
                 if selectedOption == .location {
                     Text("Where to?")
@@ -64,7 +62,9 @@ struct DestinationSearchView: View {
             .padding()
             .shadow(radius: 10)
             .onTapGesture {
-                selectedOption = .location
+                withAnimation(.snappy) {
+                    selectedOption = .location
+                }
             }
             
             VStack {
@@ -87,7 +87,9 @@ struct DestinationSearchView: View {
             .padding()
             .shadow(radius: 10)
             .onTapGesture {
-                selectedOption = .dates
+                withAnimation(.snappy) {
+                    selectedOption = .dates
+                }
             }
             
             VStack {
@@ -110,7 +112,9 @@ struct DestinationSearchView: View {
             .padding()
             .shadow(radius: 10)
             .onTapGesture {
-                selectedOption = .guests
+                withAnimation(.snappy) {
+                    selectedOption = .guests
+                }
             }
         }
     }
