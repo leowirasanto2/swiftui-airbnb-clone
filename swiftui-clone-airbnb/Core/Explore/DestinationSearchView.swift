@@ -96,7 +96,6 @@ struct DestinationSearchView: View {
                     .fontWeight(.semibold)
                 } else {
                     CollapsedPickerView(title: "When", description: "Add dates")
-                    
                 }
             }
             .modifier(CollapsibleDestinationViewModifier())
