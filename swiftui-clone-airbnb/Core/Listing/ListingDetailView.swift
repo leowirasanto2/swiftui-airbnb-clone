@@ -38,6 +38,7 @@ struct ListingDetailView: View {
                         }
                         .padding(32)
                 }
+                .padding(.top, 16)
             }
             
             VStack(alignment: .leading, spacing: 8) {
