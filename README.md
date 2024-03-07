@@ -16,10 +16,11 @@ This project is currently in progress of development. However the basic UI has a
 ![image](https://github.com/leowirasanto2/swiftui-airbnb-clone/assets/156512514/dbe1e53f-ea37-44c2-82f7-01b128ec9864)
 
 - Detail List Screen
-![image](https://github.com/leowirasanto2/swiftui-airbnb-clone/assets/156512514/63b1f8f6-baec-49f9-8638-f1328e964fb9)
+![image](https://github.com/leowirasanto2/swiftui-airbnb-clone/assets/156512514/8826b610-5091-4e5c-ba49-057d7a677793)
 
 - Destination Search Screen
-![image](https://github.com/leowirasanto2/swiftui-airbnb-clone/assets/156512514/6c52826c-1962-4870-9cef-c34ea25f9e4f)
+![image](https://github.com/leowirasanto2/swiftui-airbnb-clone/assets/156512514/5e139a48-2c05-4e05-b442-8b8621c59e3e)
+
 
 _some screenshots may be not ready yet as it's still on development process_
 
