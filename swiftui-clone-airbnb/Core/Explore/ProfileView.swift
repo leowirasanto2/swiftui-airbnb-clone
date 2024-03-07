@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            // Login View
+            LoginView()
+            
+            // Row View
+            
+            VStack(spacing: 2) {
+                ProfileRowView(title: "Settings", icon: Image(systemName: "gear"))
+                ProfileRowView(title: "Accesibility", icon: Image(systemName: "accessibility"))
+                ProfileRowView(title: "Visit the help center", icon: Image(systemName: "questionmark.circle"))
+            }
+        }
     }
 }
 
